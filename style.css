@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Orbitron:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: radial-gradient(circle, #3f51b5, #673ab7, #d500f9, #ff4081);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: #ffeb3b;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    width: 90%;
+    border: 2px solid #ffeb3b;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+button {
+    padding: 12px 20px;
+    background: #ffeb3b;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #ffd700;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px #ffd700;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffeb3b;
+}
+
+/* Centered Footer */
+footer {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffeb3b;
+}
